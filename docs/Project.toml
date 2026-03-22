@@ -1,0 +1,7 @@
+[deps]
+BayesianWorkflow = "744c1fbc-b53e-4433-99b5-6eba881db34d"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+DocumenterInterLinks = "d12716ef-a0f6-4df4-a9f1-a5a34e75c656"
+
+[sources]
+BayesianWorkflow = {path = "../"}
