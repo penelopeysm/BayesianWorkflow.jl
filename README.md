@@ -2,6 +2,15 @@
 
 [...]
 
+## Installation
+
+BayesianWorkflow.jl is not on the General registry yet.
+You can install it with:
+
+```julia
+] add https://github.com/penelopeysm/BayesianWorkflow.jl
+```
+
 ## Code formatting
 
 BayesianWorkflow.jl uses Runic.jl as its code formatter.
