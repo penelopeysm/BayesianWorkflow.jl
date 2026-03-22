@@ -1,0 +1,4 @@
+name = "BayesianWorkflow"
+uuid = "744c1fbc-b53e-4433-99b5-6eba881db34d"
+authors = ["Penelope Yong <penelopeysm@gmail.com>"]
+version = "0.1.0"
