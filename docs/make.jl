@@ -16,6 +16,7 @@ makedocs(;
     modules = modules,
     pages = [
         "index.md",
+        "api.md",
     ],
     checkdocs = :exports,
     warnonly = true,

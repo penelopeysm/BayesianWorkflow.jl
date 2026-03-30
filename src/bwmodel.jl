@@ -33,9 +33,23 @@ function _to_vnt(v::VarNamedTuple, template)
 end
 
 """
-    BModel(model::DynamicPPL.Model, data)
+    BWModel(model::DynamicPPL.Model, data)
 
-A wrapper to store a Turing model and associated data.
+A wrapper that stores a Turing model together with its associated data.
+
+The model itself should be written in a way that does *not* hardcode data variables
+in the model definition. For example, if `y` here is meant to be data:
+
+```julia
+@model function mymodel()
+    x ~ Normal()
+    y ~ Normal(x)
+end
+```
+
+then `y` should not be specified as an argument, nor should `mymodel()` be conditioned
+on `y`. Instead, just pass `mymodel()` to `BWModel` and then provide the data for `y`
+as the second argument.
 """
 struct BWModel{M <: DynamicPPL.Model, V <: VarNamedTuple}
     model::M
