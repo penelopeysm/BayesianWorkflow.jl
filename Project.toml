@@ -3,5 +3,21 @@ uuid = "744c1fbc-b53e-4433-99b5-6eba881db34d"
 authors = ["Penelope Yong <penelopeysm@gmail.com>"]
 version = "0.1.0"
 
+[deps]
+AbstractMCMC = "80f14c24-f653-4e6a-9b94-39d6b0f70001"
+DynamicPPL = "366bfd00-2699-11ea-058f-f148b4cae6d8"
+FlexiChains = "4a37a8b9-6e57-4b92-8664-298d46e639f7"
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
+
 [compat]
+AbstractMCMC = "5.14.0"
+DynamicPPL = "0.40.17"
+FlexiChains = "0.4.4"
+OrderedCollections = "1.8.1"
+Random = "1.11.0"
+Reexport = "1.2.2"
+Turing = "0.43.3"
 julia = "1.10"
