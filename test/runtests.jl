@@ -1,6 +1,7 @@
 using Test
 using BayesianWorkflow
+using Turing
 
 @testset verbose = true "BayesianWorkflow.jl" begin
-    @test 1 + 1 == 2
+    include("ext_turing.jl")
 end
