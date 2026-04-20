@@ -19,8 +19,8 @@ BayesianWorkflowTuringExt = ["Turing", "DynamicPPL", "OrderedCollections", "Rand
 
 [compat]
 AbstractMCMC = "5"
-DynamicPPL = "0.40"
-FlexiChains = "0.4"
+DynamicPPL = "0.40, 0.41"
+FlexiChains = "0.4, 0.5"
 OrderedCollections = "1"
 Random = "1"
 Reexport = "1"
