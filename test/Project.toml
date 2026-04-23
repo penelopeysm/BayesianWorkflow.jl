@@ -4,3 +4,8 @@ FlexiChains = "4a37a8b9-6e57-4b92-8664-298d46e639f7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
+
+[compat]
+DynamicPPL = "0.41.3"
+FlexiChains = "0.5.8"
+Turing = "0.44.2"
